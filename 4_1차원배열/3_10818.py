@@ -1,7 +1,5 @@
 N = int(input())
-aa = list(map(int,input().split()))
-max = max(aa)
-min = min(aa)
+M = list(map(int,input().split()))
 
-
-print(min,max)
+print(min(M),max(M),end='')
+        
